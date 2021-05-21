@@ -1,4 +1,4 @@
-const breakout = (array, changeValue, stopValue) => {
+const breakOut = (array, changeValue, stopValue) => {
   for (let i = 0; i < array.length; i += 1) {
     if (i === stopValue) {
       break;
