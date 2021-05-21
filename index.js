@@ -18,7 +18,7 @@ const keepGoing = (array, changeValue, skipValue) => {
   return array;
 };
 
-const find = (array, findFn) => {
+const findBy = (array, findFn) => {
   for (let i = 0; i < array.length; i += 1) { 
     if (findFn(array[i])) {
       return array[i];
