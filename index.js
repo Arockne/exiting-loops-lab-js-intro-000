@@ -15,4 +15,5 @@ const keepGoing = (array, changeValue, skipValue) => {
     }
     array[i] = changeValue;
   }
+  return array;
 };
